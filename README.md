@@ -1,1 +1,85 @@
 # problems-findstring
+
+Question:
+
+Given two strings s and n, your task is to check whether the string n is present in the string s.
+
+Input Description:
+
+Two strings of length up-to 100 characters.
+
+Output Description:
+
+Print "YES" if the string n is present in the string s else print "NO"
+
+Hints:
+
+Compare the string to find the ouput
+
+Sample Input:
+
+GUVITECHGUVITECH\n 
+GUVITECH
+
+Sample Output:
+
+YES
+
+Explanation:
+
+The string GUVITECH is present in GUVITECHGUVITECH, so the output is YES.
+
+Testcase 1:
+
+Input:
+
+GUVIGUVITECHTECHGUVITECHGUVIGUVITECHTECHGUVITECHGUVIGUVITECHTECHGUVITECH\n
+TECHTECHGUVITECH
+
+Output:
+
+YES
+
+Testcase 2:
+
+Input:
+
+GUVIGUVITECHGUVIGUVITECHTECHGUVITECHGUVIGUVITECHGUVIGUVITECHTECHGUVITECH\n 
+GUUVVITECHTECH
+
+Output:
+
+NO
+
+Testcase 3:
+
+Input:
+
+GUVIGUVITECHGUVIGUVITECHTECHGUVITECHGUVIGUVITECHGUVIGUVITECHTECHGUVITECH\n
+TECHTECHHGUUVI
+
+Output:
+
+NO
+
+Testcase 4:
+
+Input:
+
+GUVITECHGUVITECHGUVITECHGUVITECHGUVITECHGUVITECHGUVITECHGUVITECHGUVITECH\n
+GUVITECHGUVITECHGUVITE
+
+Output:
+
+YES
+
+Testcase 5:
+
+Input:
+
+GUVITECHGUVITECHGUVIGUVITECHGUVIGUVITECHGUVITECHGUVIGUVITECHGUVIGUVITECHGUVITECHGUVIGUVITECHGUVIGUVITECHGUVITECHGUVIGUVITECHGUVI\n
+GUVITECCCHGUVII
+
+Output:
+
+NO
